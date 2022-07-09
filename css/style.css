@@ -20,34 +20,80 @@ nav div {
   left: 20%;
   width: 50%;
 }
-nav div h1{
-    font-size: 40px;
-    font-weight: bolder;
-    color: coral;
+nav div h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: coral;
 }
-nav div p{
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    text-align: justify;
-    color:powderblue;
+nav div p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: justify;
+  color: powderblue;
 }
-nav div a{
-    background-color: coral;
-    padding: 10px 50px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    color: #000;
-    font-weight: 600;
-    transition: transform;
-    transition-property: padding;
-    transition-duration: 2s;
+nav div a {
+  background-color: coral;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  transition: transform;
+  transition-property: padding;
+  transition-duration: 2s;
 }
-nav div a:hover{
-    background-color: transparent;
-    border: 2px solid #ffffff;
-    color: #ffffff;
-    padding-left: 70px;
-    padding-right: 70px;
+nav div a:hover {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+article {
+  padding: 0 5%;
+  margin-top: 5%;
+}
+
+.donation {
+  display: flex;
+}
+.donation-article {
+  width: 50%;
+  padding: 5%;
+}
+.donation-article,
+.donation-article img {
+  width: 100%;
+  border-radius: 5px;
+}
+.donation-article h1 {
+  font-size: 30px;
+  padding-bottom: 2%;
+}
+.donation-article p {
+  color: rgb(181, 120, 181);
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+.explore-btn {
+  background-color: coral;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  transition: transform;
+  transition-property: padding;
+  transition-duration: 2s;
+}
+.explore-btn:hover {
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+  padding-left: 70px;
+  padding-right: 70px;
 }

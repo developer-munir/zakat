@@ -101,8 +101,10 @@ article {
   padding-right: 70px;
 }
 /* donatin section starts here */
+
 .donation-container {
-  padding: 0 5%;
+  padding-left: 7%;
+  margin: auto;
 }
 .donation-introduction h1 {
   text-align: center;
@@ -153,3 +155,22 @@ article {
   padding-top: 5px;
 }
 /* donatin section ends here */
+
+/* hand images section starts here */
+.hand-imges{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7%;
+  height: 600px;
+}
+.hand-imges div{
+  width: 33%;
+  margin-top: 5%;
+  
+}
+.hand-imges div>img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+/* hand images section ends here */

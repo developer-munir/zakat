@@ -174,3 +174,53 @@ article {
   border-radius: 10px;
 }
 /* hand images section ends here */
+/* hand card section starts here */
+.images-cards-container{
+  padding: 7%;
+}
+.hand-card-text{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.hand-card-text p{
+  color: rgb(181, 120, 181);
+  font-size: 20px;
+  padding-top: 3%;
+}
+/* hand card section ends here */
+/* hand cards starts here */
+.hand-card{
+  display: flex;
+  margin-top: 10%;
+}
+.card-row{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border: 1px solid rgba(89, 88, 78, 0.379);
+  border-radius: 5px;
+}
+.card-header{
+  width: 100%;
+}
+.card-header img{
+  width: 100%;
+}
+.card-body{
+  padding: 2% 3%;
+}
+.card-body p{
+  color: rgb(120, 181, 166);
+  font-size: 18px;
+  
+}
+.card-footer{
+  padding: 3% 3%;
+}
+.card-footer a{
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* hand cards ends here */

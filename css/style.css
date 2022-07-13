@@ -100,6 +100,25 @@ article {
   padding-left: 70px;
   padding-right: 70px;
 }
+/* navlinks section starts here */
+.nav-links {
+  display: flex;
+  background-color: rgba(4, 62, 95, 0.807);
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.nav-links ul {
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* navlinks section ends here */
 /* donatin section starts here */
 
 .donation-container {
@@ -225,16 +244,16 @@ article {
 }
 /* hand cards ends here */
 /* footer section starts here */
-footer{
+footer {
   background-color: #000;
   padding: 20px;
   text-align: center;
   font-size: 1.2rem;
 }
-footer h1{
+footer h1 {
   color: rgba(184, 26, 26, 0.911);
 }
-footer p{
-  color:#ffffff
+footer p {
+  color: #ffffff;
 }
 /* footer section ends here */

@@ -146,10 +146,10 @@ article {
 .icon-texts {
   width: calc(100% - 2 * var(--help-icon-width));
 }
-.icon-texts h1{
+.icon-texts h1 {
   font-size: 30px;
 }
-.icon-texts p{
+.icon-texts p {
   color: rgb(120, 181, 166);
   font-size: 20px;
   padding-top: 5px;
@@ -157,68 +157,68 @@ article {
 /* donatin section ends here */
 
 /* hand images section starts here */
-.hand-imges{
+.hand-imges {
   display: flex;
   justify-content: space-between;
   padding: 0 7%;
   height: 600px;
 }
-.hand-imges div{
-  width: 33%;
+.hand-imges div {
+  width: 32%;
   margin-top: 5%;
-  
 }
-.hand-imges div>img{
+.hand-imges div > img {
   height: 100%;
   width: 100%;
   border-radius: 10px;
 }
 /* hand images section ends here */
 /* hand card section starts here */
-.images-cards-container{
+.images-cards-container {
   padding: 7%;
 }
-.hand-card-text{
+.hand-card-text {
   margin: auto;
   text-align: center;
   width: 50%;
 }
-.hand-card-text p{
+.hand-card-text p {
   color: rgb(181, 120, 181);
   font-size: 20px;
   padding-top: 3%;
 }
 /* hand card section ends here */
 /* hand cards starts here */
-.hand-card{
+.hand-card {
   display: flex;
-  margin-top: 10%;
+  margin-top: 5%;
+  justify-content: space-between;
 }
-.card-row{
+.card-row {
   display: flex;
   flex-direction: column;
-  width: 33%;
-  border: 1px solid rgba(89, 88, 78, 0.379);
-  border-radius: 5px;
+  width: 32%;
+  border: 1px solid rgba(156, 156, 152, 0.379);
+  border-radius: 10px;
 }
-.card-header{
+.card-header {
   width: 100%;
 }
-.card-header img{
+.card-header img {
   width: 100%;
+  border-radius: 10px 10px 00px 0px;
 }
-.card-body{
+.card-body {
   padding: 2% 3%;
 }
-.card-body p{
+.card-body p {
   color: rgb(120, 181, 166);
   font-size: 18px;
-  
 }
-.card-footer{
+.card-footer {
   padding: 3% 3%;
 }
-.card-footer a{
+.card-footer a {
   color: red;
   font-weight: 600;
   font-size: 20px;

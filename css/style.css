@@ -118,6 +118,11 @@ article {
   padding-left: 40px;
   padding-right: 40px;
 }
+.nav-links a:hover{
+  color: tomato;
+  font-size: 25px;
+  font-weight: bold;
+}
 /* navlinks section ends here */
 /* donatin section starts here */
 

@@ -100,3 +100,56 @@ article {
   padding-left: 70px;
   padding-right: 70px;
 }
+/* donatin section starts here */
+.donation-container {
+  padding: 0 5%;
+}
+.donation-introduction h1 {
+  text-align: center;
+}
+.donation-introduction div {
+  text-align: justify;
+  width: 60%;
+  margin: 2% auto;
+  font-size: 18px;
+  color: rgb(181, 120, 181);
+}
+.card-container {
+  display: flex;
+  padding: 0 10%;
+  flex-wrap: wrap;
+}
+.help-poor {
+  width: 45%;
+  box-shadow: 5px 5px 10px rgba(159, 134, 134, 0.431);
+  padding: 3%;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-radius: 5px;
+}
+.help-icon-img {
+  width: 100%;
+}
+.help-icon,
+.icon-texts {
+  padding-left: 3%;
+}
+:root {
+  --help-icon-width: 60px;
+}
+.help-icon {
+  width: var(--help-icon-width);
+}
+.icon-texts {
+  width: calc(100% - 2 * var(--help-icon-width));
+}
+.icon-texts h1{
+  font-size: 30px;
+}
+.icon-texts p{
+  color: rgb(120, 181, 166);
+  font-size: 20px;
+  padding-top: 5px;
+}
+/* donatin section ends here */
